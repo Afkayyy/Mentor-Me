@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#DEF8F8"
+    android:id="@+id/main_view">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/back_arrow"
+
+        />
+
+    <TextView
+        android:id="@+id/forgot_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:textColor="#157177"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/assurance_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t worry! It happens. Please enter the
+email associated with your account."
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/forgot_msg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/login_text_small"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/assurance_msg"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Email"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_marginStart="50dp"/>
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_below="@id/login_text_small"
+        android:background="@drawable/white_box"
+        android:hint="Enter Email"
+        android:textSize="15sp"
+        android:paddingStart="20dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/verif_btn"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/Email"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:text="Send"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/dark_green_box"/>
+
+    <TextView
+        android:id="@+id/send_code_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember your password? "
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/verif_btn"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/verif_btn"
+        android:layout_marginLeft="-25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:layout_below="@+id/verif_btn"
+        android:layout_toRightOf="@+id/send_code_msg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+
+</RelativeLayout>
