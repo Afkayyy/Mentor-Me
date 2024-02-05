@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/back_arrow"
+
+        />
+    <TextView
+        android:id="@+id/verif_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify your phone number"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        android:textColor="#157177"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/code_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We've sent a code to "
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/verif_msg"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+92 321 2242022"
+        android:textSize="15sp"
+        android:textColor="#157177"
+        android:layout_below="@+id/verif_msg"
+        android:layout_toRightOf="@+id/code_msg"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ball1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#157177"
+        android:layout_toLeftOf="@+id/ball2"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/code_msg"
+        android:src="#DEF8F8" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ball2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#157177"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/code_msg"
+        android:layout_toLeftOf="@+id/ball3"
+        android:src="#DEF8F8" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ball3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#157177"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/code_msg"
+        android:layout_centerHorizontal="true"
+        android:src="#DEF8F8" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ball4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#157177"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ball3"
+        android:layout_below="@+id/code_msg"
+        android:src="#DEF8F8" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ball5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#157177"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/code_msg"
+        android:layout_toRightOf="@+id/ball4"
+        android:src="#DEF8F8" />
+
+    <Button
+        android:id="@+id/verif_btn"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ball5"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:text="Verify"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/dark_green_box"/>
+
+    <TextView
+        android:id="@+id/send_code_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send code again "
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/verif_btn"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/verif_btn"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:layout_below="@+id/verif_btn"
+        android:layout_alignRight="@+id/verif_btn"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/send_code_msg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:background="#50C2C9">
+
+        <FrameLayout
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_div"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="220dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="320dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageButton
+                android:id="@+id/option_0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#50C2C9"
+                android:scaleType="fitCenter"
+                android:src="@drawable/number_btn">
+
+            </ImageButton>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="40dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:clickable="false">
+            </TextView>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/backspace"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="325dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+           />
+
+    </RelativeLayout>
+</RelativeLayout>

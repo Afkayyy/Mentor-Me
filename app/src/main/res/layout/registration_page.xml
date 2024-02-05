@@ -281,7 +281,6 @@
             android:layout_height="wrap_content"
             android:text="Log in"
             android:textColor="#157177"
-
             android:textSize="14sp"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/sign_up"
