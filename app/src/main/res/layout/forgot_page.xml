@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#DEF8F8"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Forgot_Password_Activity"
     android:id="@+id/main_view">
 
     <ImageView

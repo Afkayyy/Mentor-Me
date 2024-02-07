@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DEF8F8"
-    tools:context=".MainActivity">
+    tools:context=".Main_Menu_Activity">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/main"
@@ -68,6 +68,11 @@
 
 
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/Greetings"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></LinearLayout>
 
     <FrameLayout
 

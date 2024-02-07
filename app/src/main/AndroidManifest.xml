@@ -13,6 +13,45 @@
         android:theme="@style/Theme.I211385"
         tools:targetApi="31">
         <activity
+            android:name=".Video_Calling_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Verification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Search_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Reset_Pass_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_Password_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Call_Interface_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Book_Session_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Menu_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Registration_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
