@@ -7,15 +7,15 @@
     android:background="#DEF8F8"
     tools:context=".Verification_Activity">
 
-    <ImageView
+    <TextView
+        android:id="@+id/back_btn_verif_pg"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/back_arrow"
-
+        android:background="@drawable/back_arrow"
         />
     <TextView
         android:id="@+id/verif_msg"

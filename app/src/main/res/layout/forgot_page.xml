@@ -8,14 +8,15 @@
     tools:context=".Forgot_Password_Activity"
     android:id="@+id/main_view">
 
-    <ImageView
+    <TextView
+        android:id="@+id/frgt_back_btn"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
-        android:src="@drawable/back_arrow"
+        android:background="@drawable/back_arrow"
 
         />
 
@@ -100,9 +101,10 @@ email associated with your account."
         />
 
     <TextView
+        android:id="@+id/log_in_link_frgt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/log_in"
         android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="#157177"

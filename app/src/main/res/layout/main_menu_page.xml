@@ -76,6 +76,7 @@
             android:layout_marginTop="70dp">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/notif_btn"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="#147076"
@@ -856,6 +857,7 @@
                     android:paddingLeft="8dp"/>
 
                 <TextView
+                    android:id="@+id/home_link"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="  Available"
@@ -1047,7 +1049,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <ImageView
+            <TextView
+                android:id="@+id/home_links"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
@@ -1083,7 +1086,8 @@
                 android:layout_weight="1"
                 android:layout_gravity="center">
 
-                <ImageView
+                <TextView
+                    android:id="@+id/search_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -1121,7 +1125,8 @@
                 android:layout_weight="1"
                 android:layout_gravity="center">
 
-                <ImageView
+                <TextView
+                    android:id="@+id/chat_link"
                     android:layout_width="35dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -1156,7 +1161,8 @@
                 android:layout_weight="1"
                 android:layout_gravity="center">
 
-                <ImageView
+                <TextView
+                    android:id="@+id/person_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
