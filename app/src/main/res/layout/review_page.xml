@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    tools:context=".Main_Profile_Activity">
+
+
+    <RelativeLayout
+        android:id="@+id/header_top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#50C2C9"
+        android:layout_alignBot="@+id/display_cover">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#147076"
+            android:layout_marginLeft="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/back_arrow"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/header_top"
+        android:layout_marginTop="-5sp"
+        android:id="@+id/display_cover"
+        android:weightSum="6"
+        android:orientation="vertical"
+        android:background="@drawable/blue_box"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Hi, I’m \nJohn Cooper"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:paddingRight="60dp"
+                android:layout_marginLeft="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/display_pic"
+                android:layout_weight="1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                app:civ_border_color="#7FD9D3"
+                app:civ_border_width="5dp"
+                android:layout_gravity="end"
+                android:src="#000000"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#7FD9D3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/blue_box"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drop me a review "
+                android:layout_marginLeft="10dp"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:drawableRight="@drawable/add_emoji_icon"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/display_cover"
+        android:id="@+id/Greetings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/review_box"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:text="Type your experience . . ."
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"
+            android:textSize="15sp"
+            android:background="@drawable/search_box"
+            android:paddingBottom="120dp"
+            android:paddingLeft="30dp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignTop="@+id/submit_feedack"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-180dp">
+
+            <TextView
+                android:id="@+id/star_left1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableTop="@drawable/hollow_star_icon" />
+
+            <TextView
+                android:id="@+id/star_left2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableTop="@drawable/hollow_star_icon" />
+
+            <TextView
+                android:id="@+id/main_star"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableTop="@drawable/hollow_star_icon" />
+
+            <TextView
+                android:id="@+id/star_right1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableTop="@drawable/hollow_star_icon" />
+
+            <TextView
+                android:id="@+id/star_right2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:drawableTop="@drawable/hollow_star_icon" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/submit_feedack"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:text="Submit Feedback"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/dark_green_box" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
