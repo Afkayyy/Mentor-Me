@@ -77,7 +77,7 @@
                 android:layout_centerHorizontal="true"
                 app:civ_border_width="3dp"
                 android:layout_marginBottom="20dp"
-                android:src="#FFFFFF" />
+                android:src="@drawable/john1" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_gravity="end"
@@ -106,7 +106,7 @@
                 android:layout_centerHorizontal="true"
                 app:civ_border_width="3dp"
                 android:layout_marginBottom="20dp"
-                android:src="#FFFFFF" />
+                android:src="@drawable/black_shirt_guy" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_gravity="end"
@@ -135,7 +135,7 @@
                 android:layout_centerHorizontal="true"
                 app:civ_border_width="3dp"
                 android:layout_marginBottom="20dp"
-                android:src="#FFFFFF" />
+                android:src="@drawable/black_wmn" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_gravity="end"
@@ -164,7 +164,7 @@
                 android:layout_centerHorizontal="true"
                 app:civ_border_width="3dp"
                 android:layout_marginBottom="20dp"
-                android:src="#FFFFFF" />
+                android:src="@drawable/blonde" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_gravity="end"
@@ -194,7 +194,7 @@
                 android:layout_centerHorizontal="true"
                 app:civ_border_width="3dp"
                 android:layout_marginBottom="20dp"
-                android:src="#FFFFFF" />
+                android:src="@drawable/doctor" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_gravity="end"
@@ -241,7 +241,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="18dp"
-                android:src="#7E1717" />
+                android:src="@drawable/john1" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -284,9 +284,9 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="65dp"
-                android:layout_height="70dp"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="18dp"
-                android:src="#7E1717" />
+                android:src="@drawable/jack_watsn" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -331,7 +331,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="18dp"
-                android:src="#7E1717" />
+                android:src="@drawable/emma1" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

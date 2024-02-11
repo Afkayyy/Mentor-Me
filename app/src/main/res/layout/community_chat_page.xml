@@ -100,7 +100,7 @@
                     app:civ_border_color="#FFC909"
                     app:civ_border_width="3dp"
                     android:layout_marginBottom="20dp"
-                    android:src="#FFFFFF" />
+                    android:src="@drawable/john1" />
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_gravity="center_horizontal"
@@ -270,7 +270,7 @@ mentorship? Satisfied??"
                 android:layout_width="50dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="18dp"
-                android:src="#7E1717" />
+                android:src="@drawable/doctor" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

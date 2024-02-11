@@ -35,7 +35,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/username"
         android:layout_marginTop="50dp"
-        android:src="#000000"
+        android:src="@drawable/john1"
         />
 
 
