@@ -69,7 +69,7 @@
                 app:civ_border_color="#7FD9D3"
                 app:civ_border_width="5dp"
                 android:layout_gravity="end"
-                android:src="#000000"
+                android:src="@drawable/john1"
                 />
 
         </LinearLayout>
@@ -104,21 +104,19 @@
 
     </LinearLayout>
 
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_below="@+id/display_cover"
         android:id="@+id/Greetings"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/review_box"
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:text="Type your experience . . ."
-            android:layout_centerHorizontal="true"
             android:layout_marginHorizontal="30dp"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="60dp"
             android:textSize="15sp"
@@ -127,15 +125,11 @@
             android:paddingLeft="30dp"
             />
 
-
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_alignTop="@+id/submit_feedack"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="-180dp">
+            android:layout_gravity="center_horizontal">
 
             <TextView
                 android:id="@+id/star_left1"
@@ -169,16 +163,13 @@
 
         </LinearLayout>
 
-
         <Button
             android:id="@+id/submit_feedack"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="70dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginHorizontal="20dp"
+            android:layout_marginHorizontal="70dp"
             android:text="Submit Feedback"
             android:textAllCaps="false"
             android:textStyle="bold"
@@ -186,8 +177,7 @@
             android:textColor="#FFFFFF"
             android:background="@drawable/dark_green_box" />
 
-    </RelativeLayout>
-
+    </LinearLayout>
 
 
 </RelativeLayout>
