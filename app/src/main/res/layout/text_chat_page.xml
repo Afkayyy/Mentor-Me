@@ -35,6 +35,7 @@
             android:layout_marginBottom="30dp"/>
 
         <TextView
+            android:id="@+id/call_btn"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/call_icon"
@@ -42,6 +43,7 @@
             android:layout_marginLeft="30dp"/>
 
         <TextView
+            android:id="@+id/video_call_btn"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/video_icon_white"
@@ -273,6 +275,7 @@
 
 
         <TextView
+            android:id="@+id/camera"
             android:layout_marginLeft="40dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
@@ -316,6 +319,7 @@
                 android:layout_weight="1">
 
                 <ImageView
+                    android:id="@+id/home_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -352,6 +356,7 @@
                 android:layout_gravity="center">
 
                 <ImageView
+                    android:id="@+id/search_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -425,6 +430,7 @@
                 android:layout_gravity="center">
 
                 <ImageView
+                    android:id="@+id/person_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"

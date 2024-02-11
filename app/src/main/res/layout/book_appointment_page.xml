@@ -17,6 +17,7 @@
 
 
         <TextView
+            android:id="@+id/back_arrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#147076"
@@ -148,6 +149,7 @@
                         android:src="#FFC909" />
 
                     <TextView
+                        android:id="@+id/chat_page"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@drawable/message_icon_green"
@@ -168,6 +170,7 @@
                         android:src="#FFC909" />
 
                     <TextView
+                        android:id="@+id/call_page"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@drawable/call_icon_green"
@@ -188,6 +191,7 @@
                         android:src="#FFC909" />
 
                     <TextView
+                        android:id="@+id/video_call_page"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@drawable/video_icon"

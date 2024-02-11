@@ -16,6 +16,7 @@
 
 
         <TextView
+            android:id="@+id/back_arrow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="   My Profile"
@@ -140,6 +141,7 @@
 
 
         <Button
+            android:id="@+id/book_a_session"
             android:layout_width="180dp"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
@@ -669,6 +671,7 @@ again."
                 android:layout_weight="1">
 
                 <ImageView
+                    android:id="@+id/home_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -705,6 +708,7 @@ again."
                 android:layout_gravity="center">
 
                 <ImageView
+                    android:id="@+id/search_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -743,6 +747,7 @@ again."
                 android:layout_gravity="center">
 
                 <ImageView
+                    android:id="@+id/chat_link"
                     android:layout_width="35dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -778,6 +783,7 @@ again."
                 android:layout_gravity="center">
 
                 <ImageView
+                    android:id="@+id/person_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -879,6 +885,7 @@ again."
 
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/edit_profile"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_gravity="end"
