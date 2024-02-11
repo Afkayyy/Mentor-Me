@@ -494,8 +494,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
                     android:text="John provided excellent\nprototyping techniques\nand insights. I highly\nrecommend him!"
-                    android:textSize="8sp"
-                    android:textColour="#FFFFFF"/>
+                    android:textSize="8sp"/>
 
             </LinearLayout>
 
@@ -568,8 +567,7 @@
                     android:text=" Her tips were valuable.
 Would love to connect
 again."
-                    android:textSize="8sp"
-                    android:textColour="#FFFFFF"/>
+                    android:textSize="8sp"/>
 
             </LinearLayout>
 
@@ -639,8 +637,7 @@ again."
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="5dp"
                     android:text=" Impressive session."
-                    android:textSize="8sp"
-                    android:textColour="#FFFFFF"/>
+                    android:textSize="8sp"/>
 
             </LinearLayout>
 

@@ -13,8 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:orientation="horizontal"
-        android:background="#50C2C9"
-        android:layout_alignBot="@+id/display_cover">
+        android:background="#50C2C9">
 
         <TextView
             android:id="@+id/back_to_search_results"

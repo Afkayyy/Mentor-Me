@@ -142,7 +142,6 @@
             android:textColorHint="#918B8B"
             android:paddingLeft="20dp"
             android:inputType="text"
-            android:layout_alignLeftOf="@+id/email_text"
             android:textColor="#FFFFFF"
             android:backgroundTint="#FFFFFF" />
 
@@ -171,7 +170,6 @@
             android:textColorHint="#918B8B"
             android:paddingLeft="20dp"
             android:inputType="text"
-            android:layout_alignLeftOf="@+id/email_text"
             android:textColor="#FFFFFF"
             android:backgroundTint="#FFFFFF" />
 
@@ -201,7 +199,6 @@
             android:textColorHint="#918B8B"
             android:paddingLeft="20dp"
             android:inputType="text"
-            android:layout_alignLeftOf="@+id/email_text"
             android:drawableRight="@drawable/dropdown_arrow"
             android:paddingRight="10dp"
             android:textColor="#FFFFFF"
