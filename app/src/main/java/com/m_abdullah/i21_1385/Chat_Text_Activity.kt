@@ -51,7 +51,7 @@ class Chat_Text_Activity : AppCompatActivity() {
 
         var vid_call_btn=findViewById<TextView>(R.id.video_call_btn)
 
-        person_button.setOnClickListener{
+        vid_call_btn.setOnClickListener{
 
             val second_intent= Intent(this,Video_Calling_Activity::class.java)
             startActivity(second_intent)

@@ -18,9 +18,17 @@ class Resume_Page_Activity : AppCompatActivity() {
             startActivity(second_intent)
         }
 
+        var book_session=findViewById<TextView>(R.id.book_session)
+
+        book_session.setOnClickListener{
+
+            val second_intent= Intent(this,Book_Appointment_Activity::class.java)
+            startActivity(second_intent)
+        }
+
         var review_button=findViewById<TextView>(R.id.review_btn)
 
-        back_home_button.setOnClickListener{
+        review_button.setOnClickListener{
 
             val second_intent= Intent(this,Review_Page_Activity::class.java)
             startActivity(second_intent)
@@ -28,7 +36,7 @@ class Resume_Page_Activity : AppCompatActivity() {
 
         var community_button=findViewById<TextView>(R.id.join_community)
 
-        back_home_button.setOnClickListener{
+        community_button.setOnClickListener{
 
             val second_intent= Intent(this,Community_Chat_Activity::class.java)
             startActivity(second_intent)

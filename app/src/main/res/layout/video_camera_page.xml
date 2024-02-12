@@ -23,6 +23,7 @@
         android:background="#CBCBCB">
 
         <TextView
+            android:id="@+id/close_camera"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:background="@drawable/close_icon"
@@ -277,12 +278,13 @@
                     android:layout_marginBottom="20dp"
                     android:layout_marginLeft="40dp"
                     android:src="#147076" />
-                <ImageView
+                <TextView
+                    android:id="@+id/open_camera"
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="47dp"
                     android:layout_marginTop="12dp"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/camera_icon_lightgreen"
+                    android:background="@drawable/camera_icon_lightgreen"
                     android:layout_marginBottom="45dp"
                     />
 

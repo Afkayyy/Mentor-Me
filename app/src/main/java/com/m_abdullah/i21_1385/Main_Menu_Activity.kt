@@ -51,5 +51,13 @@ class Main_Menu_Activity : AppCompatActivity() {
             val per_intent= Intent(this,Main_Profile_Activity::class.java)
             startActivity(per_intent)
         }
+
+        var john_button=findViewById<TextView>(R.id.john)
+
+        john_button.setOnClickListener{
+
+            val per_intent= Intent(this,Resume_Page_Activity::class.java)
+            startActivity(per_intent)
+        }
     }
 }

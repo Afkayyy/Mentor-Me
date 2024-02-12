@@ -21,7 +21,7 @@ class Registration_Activity : AppCompatActivity() {
 
         var log_in_button=findViewById<TextView>(R.id.log_in_link)
 
-        sign_up_button.setOnClickListener{
+        log_in_button.setOnClickListener{
 
             val second_intent= Intent(this,Login_Activity::class.java)
             startActivity(second_intent)

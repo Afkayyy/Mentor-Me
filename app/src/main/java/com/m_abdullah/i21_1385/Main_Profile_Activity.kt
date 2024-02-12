@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import de.hdodenhof.circleimageview.CircleImageView
 
 class Main_Profile_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,9 +50,9 @@ class Main_Profile_Activity : AppCompatActivity() {
             startActivity(second_intent)
         }
 
-        var vid_call_btn=findViewById<TextView>(R.id.edit_profile)
+        var vid_call_btn=findViewById<CircleImageView>(R.id.edit_profile)
 
-        person_button.setOnClickListener{
+        vid_call_btn.setOnClickListener{
 
             val second_intent= Intent(this,Edit_Profile_Activity::class.java)
             startActivity(second_intent)

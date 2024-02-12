@@ -185,6 +185,11 @@
         android:weightSum="3"
         android:orientation="vertical">
 
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -257,6 +262,7 @@
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_marginTop="10dp"
         android:layout_width="160dp"
@@ -398,6 +404,8 @@
 
     </LinearLayout>
 
+        </HorizontalScrollView>
+
     </LinearLayout>
 
 
@@ -422,6 +430,10 @@
 
     </LinearLayout>
 
+    <HorizontalScrollView
+        android:layout_below="@+id/Msg_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/review_tab"
@@ -430,6 +442,8 @@
         android:layout_height="wrap_content"
         android:weightSum="3"
         android:orientation="horizontal">
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -646,6 +660,7 @@ again."
 
     </LinearLayout>
 
+</HorizontalScrollView>
 
     <LinearLayout
         android:layout_width="match_parent"
