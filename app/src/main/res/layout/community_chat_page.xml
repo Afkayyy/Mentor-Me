@@ -383,7 +383,7 @@ mentorship? Satisfied??"
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <ImageView
+                <TextView
                     android:id="@+id/home_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -420,7 +420,7 @@ mentorship? Satisfied??"
                 android:layout_weight="1"
                 android:layout_gravity="center">
 
-                <ImageView
+                <TextView
                     android:id="@+id/search_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -459,7 +459,7 @@ mentorship? Satisfied??"
                 android:layout_weight="1"
                 android:layout_gravity="center">
 
-                <ImageView
+                <TextView
                     android:layout_width="35dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -494,7 +494,7 @@ mentorship? Satisfied??"
                 android:layout_weight="1"
                 android:layout_gravity="center">
 
-                <ImageView
+                <TextView
                     android:id="@+id/person_link"
                     android:layout_width="40dp"
                     android:layout_height="40dp"

@@ -32,7 +32,10 @@
 
     </RelativeLayout>
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header">
 
     <LinearLayout
         android:id="@+id/login_bar"
@@ -185,15 +188,15 @@
 
     </LinearLayout>
 
+    </ScrollView>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="190dp"
         android:layout_height="130dp"
         app:civ_border_color="#147076"
         android:layout_centerHorizontal="true"
-        android:layout_alignTop="@+id/login_bar"
         android:src="@drawable/profile_page"
-        android:layout_marginTop="-65dp"
+        android:layout_marginTop="150dp"
         />
 
 

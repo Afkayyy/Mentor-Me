@@ -26,6 +26,14 @@ class Add_Mentor_Activity : AppCompatActivity() {
             startActivity(second_intent)
         }
 
+        var upload_button=findViewById<TextView>(R.id.upload)
+
+        search_button.setOnClickListener{
+
+            val second_intent= Intent(this,Main_Menu_Activity::class.java)
+            startActivity(second_intent)
+        }
+
         var home_button=findViewById<TextView>(R.id.home_link)
 
         home_button.setOnClickListener{

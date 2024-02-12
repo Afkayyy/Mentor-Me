@@ -23,7 +23,31 @@ class Search_Result_Activity : AppCompatActivity() {
 
         notif_button.setOnClickListener{
 
-            val second_intent= Intent(this,Search_Result_Activity::class.java)
+            val second_intent= Intent(this,Search_Page_Activity::class.java)
+            startActivity(second_intent)
+        }
+
+        var home_button=findViewById<TextView>(R.id.home_link)
+
+        home_button.setOnClickListener{
+
+            val second_intent= Intent(this,Search_Page_Activity::class.java)
+            startActivity(second_intent)
+        }
+
+        var chat_button=findViewById<TextView>(R.id.chat_link)
+
+        chat_button.setOnClickListener{
+
+            val second_intent= Intent(this,Chat_Page_Activiy::class.java)
+            startActivity(second_intent)
+        }
+
+        var person_button=findViewById<TextView>(R.id.person_link)
+
+        person_button.setOnClickListener{
+
+            val second_intent= Intent(this,Main_Profile_Activity::class.java)
             startActivity(second_intent)
         }
     }

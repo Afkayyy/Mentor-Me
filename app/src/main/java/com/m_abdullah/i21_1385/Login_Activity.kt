@@ -21,7 +21,7 @@ class Login_Activity : AppCompatActivity() {
 
         var log_button=findViewById<Button>(R.id.login_button)
 
-        reg_button.setOnClickListener {
+        log_button.setOnClickListener {
 
             val second_intent = Intent(this, Main_Menu_Activity::class.java)
             startActivity(second_intent)
@@ -29,7 +29,7 @@ class Login_Activity : AppCompatActivity() {
 
         var forgot_button=findViewById<TextView>(R.id.forgot_text)
 
-        reg_button.setOnClickListener{
+        forgot_button.setOnClickListener{
 
             val second_intent=Intent(this,Forgot_Password_Activity::class.java)
             startActivity(second_intent)

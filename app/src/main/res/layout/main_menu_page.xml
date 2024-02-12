@@ -275,234 +275,243 @@
     android:weightSum="3"
     android:orientation="vertical">
 
-    <LinearLayout
+    <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
+        android:layout_weight="1">
 
         <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="160dp"
-            android:layout_height="170dp"
-            android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_gravity=""
-            android:background="@drawable/grey_box">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:weightSum="5"
-                android:layout_gravity="bottom"
-                android:layout_marginBottom="10dp"
-                android:layout_marginHorizontal="5dp"
-                android:background="@drawable/white_box">
+                android:layout_marginTop="10dp"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity=""
+                android:background="@drawable/grey_box">
 
-                <!-- Content inside the white box -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="vertical"
+                    android:weightSum="5"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/white_box">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <!-- Content inside the white box -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="John Cooper
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="John Cooper
 "
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:paddingTop="5dp"
-                        android:paddingLeft="7dp"/>
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="7dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" $500/Session"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold"
+                            android:textAlignment="textEnd"
+                            android:textSize="8sp"
+                            android:textColor="#EBB800"/>
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" $500/Session"
-                        android:paddingRight="10dp"
-                        android:textStyle="bold"
-                        android:textAlignment="textEnd"
+                        android:text=" UX Designer @ Google"
+                        android:textColor="@color/black"
                         android:textSize="8sp"
-                        android:textColor="#EBB800"/>
+                        android:textStyle="bold"
+                        android:textAlignment="gravity"
+                        android:paddingLeft="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  Available"
+                        android:textColor="#3EAD00"
+                        android:textSize="10sp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="3dp"
+                        android:drawableLeft="@drawable/green_cricle"
+                        android:drawableRight="@drawable/heart"
+                        android:paddingRight="15dp"/>
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" UX Designer @ Google"
-                    android:textColor="@color/black"
-                    android:textSize="8sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:paddingLeft="8dp"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="  Available"
-                    android:textColor="#3EAD00"
-                    android:textSize="10sp"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="8dp"
-                    android:paddingBottom="3dp"
-                    android:drawableLeft="@drawable/green_cricle"
-                    android:drawableRight="@drawable/heart"
-                    android:paddingRight="15dp"/>
             </LinearLayout>
 
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="160dp"
-            android:layout_height="170dp"
-            android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_gravity=""
-            android:background="@drawable/grey_box">
-
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:weightSum="5"
-                android:layout_gravity="bottom"
-                android:layout_marginBottom="10dp"
-                android:layout_marginHorizontal="5dp"
-                android:background="@drawable/white_box">
+                android:layout_marginTop="10dp"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity=""
+                android:background="@drawable/grey_box">
 
-                <!-- Content inside the white box -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="vertical"
+                    android:weightSum="5"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/white_box">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <!-- Content inside the white box -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Martina Watson"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        android:textStyle="bold"
-                        android:paddingTop="5dp"
-                        android:paddingLeft="7dp"/>
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Martina Watson"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="7dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" $500/Session"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold"
+                            android:textAlignment="textEnd"
+                            android:textSize="8sp"
+                            android:textColor="#EBB800"/>
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" $500/Session"
-                        android:paddingRight="10dp"
+                        android:text="Lead - Technology Officer"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
                         android:textStyle="bold"
-                        android:textAlignment="textEnd"
-                        android:textSize="8sp"
-                        android:textColor="#EBB800"/>
+                        android:textAlignment="gravity"
+                        android:paddingLeft="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  Not Available"
+                        android:textColor="#BDBDBD"
+                        android:textSize="10sp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="3dp"
+                        android:drawableLeft="@drawable/grey_circle"
+                        android:drawableRight="@drawable/dead_heart"
+                        android:paddingRight="15dp"/>
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Lead - Technology Officer"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:paddingLeft="8dp"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="  Not Available"
-                    android:textColor="#BDBDBD"
-                    android:textSize="10sp"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="8dp"
-                    android:paddingBottom="3dp"
-                    android:drawableLeft="@drawable/grey_circle"
-                    android:drawableRight="@drawable/dead_heart"
-                    android:paddingRight="15dp"/>
             </LinearLayout>
 
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="160dp"
-            android:layout_height="170dp"
-            android:textColor="@color/black"
-            android:layout_marginLeft="5dp"
-            android:layout_gravity=""
-            android:background="@drawable/grey_box">
-
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:weightSum="5"
-                android:layout_gravity="bottom"
-                android:layout_marginBottom="10dp"
-                android:layout_marginHorizontal="5dp"
-                android:background="@drawable/white_box">
+                android:layout_marginTop="10dp"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity=""
+                android:background="@drawable/grey_box">
 
-                <!-- Content inside the white box -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="vertical"
+                    android:weightSum="5"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:background="@drawable/white_box">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <!-- Content inside the white box -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Emma"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:textStyle="bold"
-                        android:paddingTop="5dp"
-                        android:paddingLeft="7dp"/>
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Emma"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="7dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" $500/Session"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold"
+                            android:textAlignment="textEnd"
+                            android:textSize="8sp"
+                            android:textColor="#EBB800"/>
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text=" $500/Session"
-                        android:paddingRight="10dp"
+                        android:text="Lead - Corporation Officer"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
                         android:textStyle="bold"
-                        android:textAlignment="textEnd"
-                        android:textSize="8sp"
-                        android:textColor="#EBB800"/>
+                        android:textAlignment="gravity"
+                        android:paddingLeft="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  Not Available"
+                        android:textColor="#BDBDBD"
+                        android:textSize="10sp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingBottom="3dp"
+                        android:drawableLeft="@drawable/grey_circle"
+                        android:drawableRight="@drawable/dead_heart"
+                        android:paddingRight="15dp"/>
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Lead - Corporation Officer"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:textAlignment="gravity"
-                    android:paddingLeft="8dp"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="  Not Available"
-                    android:textColor="#BDBDBD"
-                    android:textSize="10sp"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="8dp"
-                    android:paddingBottom="3dp"
-                    android:drawableLeft="@drawable/grey_circle"
-                    android:drawableRight="@drawable/dead_heart"
-                    android:paddingRight="15dp"/>
             </LinearLayout>
-
 
         </LinearLayout>
 
-    </LinearLayout>
+
+    </HorizontalScrollView>
+
+
 
     <LinearLayout
         android:id="@+id/Msg_2"
@@ -534,11 +543,14 @@
 
     </LinearLayout>
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
 
 
@@ -763,6 +775,8 @@
 
     </LinearLayout>
 
+    </HorizontalScrollView>
+
     <LinearLayout
         android:id="@+id/Msg_3"
         android:layout_width="match_parent"
@@ -826,6 +840,7 @@
                     android:orientation="horizontal">
 
                     <TextView
+                        android:id="@+id/home_link"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Sample 1"
@@ -857,7 +872,6 @@
                     android:paddingLeft="8dp"/>
 
                 <TextView
-                    android:id="@+id/home_link"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="  Available"
@@ -1051,6 +1065,7 @@
 
             <TextView
                 android:id="@+id/home_links"
+                android:clickable="true"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
@@ -1088,6 +1103,7 @@
 
                 <TextView
                     android:id="@+id/search_link"
+                    android:clickable="true"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -1116,7 +1132,6 @@
         android:layout_weight="1"
             android:gravity="right"
             android:layout_gravity="center"
-
             >
 
             <FrameLayout
@@ -1126,7 +1141,8 @@
                 android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/chat_link"
+                    android:clickable="true"
+                    android:id="@+id/chat_link_main"
                     android:layout_width="35dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -1162,7 +1178,8 @@
                 android:layout_gravity="center">
 
                 <TextView
-                    android:id="@+id/person_link"
+                    android:id="@+id/person_link_main"
+                    android:clickable="true"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -1186,6 +1203,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/add_mentor"
         android:layout_width="90dp"
         android:layout_height="90dp"
         app:civ_border_color="#147076"
