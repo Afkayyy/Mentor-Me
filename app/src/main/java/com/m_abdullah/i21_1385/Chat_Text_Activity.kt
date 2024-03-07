@@ -57,6 +57,14 @@ class Chat_Text_Activity : AppCompatActivity() {
             startActivity(second_intent)
         }
 
+        var chat_cam_btn=findViewById<TextView>(R.id.camera)
+
+        chat_cam_btn.setOnClickListener{
+
+            val second_intent= Intent(this,Photo_Camera_Activity::class.java)
+            startActivity(second_intent)
+        }
+
 
 
     }
